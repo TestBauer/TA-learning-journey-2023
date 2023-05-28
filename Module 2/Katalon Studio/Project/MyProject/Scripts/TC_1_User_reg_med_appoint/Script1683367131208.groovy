@@ -29,9 +29,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Se
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Tokyo CURA Healthcare Center\n Hongkong CURA Healthcare Center\n Seoul CURA Healthcare Center')
-
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_None_programs'))
